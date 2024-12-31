@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="romantic_song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <header>
+        <h1>Our Love Story</h1>
+        <p>From the moment we met, I knew you were special.</p>
+    </header>
+
+    <section id="gallery">
+        <img src="images/image1.jpg" alt="Memory 1">
+        <img src="images/image2.jpg" alt="Memory 2">
+        <img src="images/image3.jpg" alt="Memory 3">
+    </section>
+
+    <section id="countdown">
+        <h2>Countdown to Our Special Day</h2>
+        <div id="timer">
+            <span id="days">0</span> Days 
+            <span id="hours">0</span> Hours 
+            <span id="minutes">0</span> Minutes 
+            <span id="seconds">0</span> Seconds
+        </div>
+    </section>
+
+    <section id="proposal">
+        <h2>Proposal</h2>
+        <button id="yesBtn">Forever & Always</button>
+        <button id="noBtn">Think Again</button>
+        <p id="response"></p>
+    </section>
+
+    <section id="surprise">
+        <h2>Surprise Gift</h2>
+        <p id="giftMessage"></p>
+    </section>
+
+    <section id="poem">
+        <h2>Generate a Love Poem</h2>
+        <button id="poemBtn">Click for a Surprise</button>
+        <p id="poemDisplay"></p>
+    </section>
+
+    <div id="hearts-container"></div>
+    <canvas id="fireworksCanvas"></canvas>
+    <div id="lanterns-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

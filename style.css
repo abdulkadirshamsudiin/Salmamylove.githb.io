@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #1a1a2e;
+  color: #ffffff;
+}
+
+header {
+  padding: 20px;
+  background-color: #162447;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Image Gallery */
+#gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+#gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+#gallery img:hover {
+  transform: scale(1.1);
+}
+
+/* Countdown Timer */
+#countdown {
+  margin: 30px 0;
+}
+
+#timer {
+  font-size: 2em;
+  color: #f05454;
+  font-weight: bold;
+}
+
+/* Proposal Section */
+#proposal button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#yesBtn {
+  background-color: #22c55e;
+  color: #ffffff;
+}
+
+#noBtn {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+#proposal button:hover {
+  transform: scale(1.1);
+}
+
+#response {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+/* Poem Section */
+#poem button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+#poem button:hover {
+  transform: scale(1.1);
+}
+
+#poemDisplay {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #ffd700;
+}
+
+/* Animation Containers */
+#hearts-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+#lanterns-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9;
+}
+
+/* Fireworks */
+#fireworksCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 8;
+}
